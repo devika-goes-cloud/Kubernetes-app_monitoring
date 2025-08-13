@@ -95,11 +95,13 @@ You can import k8s dashboard with id like here i used
 - Metrics: Pod CPU/Memory usage, restarts, container status
 
 <br>
+
 - Name: Kubernetes Cluster Monitoring (via Prometheus)
 - Grafana ID: 315
 - Metrics: Cluster CPU/Memory usage, Pod count, Node status, Disk usage
 
 <br>
+
 - Name: Kubernetes / Compute Resources / Cluster
 - Grafana ID: 11074
 - Metrics: Node & Pod resource utilization, CPU, memory, network
