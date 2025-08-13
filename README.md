@@ -30,7 +30,8 @@ helm repo add prometheus-community https://prometheus-community.github.io/helm-c
 # 4️⃣ Install Prometheus & Grafana inside the cluster:
 
 ```bash
-helm install stable prometheus-community/kube-prometheus-stack   # Prometheus/Grafana run as pods in the cluster
+ # Prometheus/Grafana run as pods in the cluster
+helm install stable prometheus-community/kube-prometheus-stack  
 ```
 
 
