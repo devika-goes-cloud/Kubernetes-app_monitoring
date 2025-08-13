@@ -37,20 +37,22 @@ helm install stable prometheus-community/kube-prometheus-stack   # Prometheus/Gr
 Pod / Application Metrics (annotations required)
 Add annotations to Deployment YAML :
 
+```yaml
 annotations:
   prometheus.io/scrape: "true"
   prometheus.io/port: "8080"
-
+```
 
 
 where to add :- Usually in the Deployment YAML under metadata → annotations in the pod template:
+```yaml
 spec:
   template:
     metadata:
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/port: "8080"
-
+```
   
   
 Prometheus will scrape metrics only from annotated pods.
