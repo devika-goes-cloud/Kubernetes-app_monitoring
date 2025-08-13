@@ -56,3 +56,5 @@ Prometheus will scrape metrics only from annotated pods.
 Without these annotations, Prometheus will not scrape metrics from that pod.
 
 every new app you want to monitor must have these annotations 
+
+
