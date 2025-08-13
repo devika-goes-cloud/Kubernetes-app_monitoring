@@ -82,12 +82,26 @@ Password: prom-operator
 
 
 
+## Create Kubernetes Cluster Monitoring Dashboard:
+
+You can import k8s dashboard with id like here i used 
+- Name of Dashboard -> Kubernetes Monitoring Dashboard 
+- Grafana ID -> 12740
 
 
+- Name of Dashboard -> Kubernetes / Compute Resources / Pod
+- Grafana ID -> 11077
+- Metrics: Pod CPU/Memory usage, restarts, container status
 
 
+- Name: Kubernetes Cluster Monitoring (via Prometheus)
+- Grafana ID: 315
+- Metrics: Cluster CPU/Memory usage, Pod count, Node status, Disk usage
 
 
+- Name: Kubernetes / Compute Resources / Cluster
+- Grafana ID: 11074
+- Metrics: Node & Pod resource utilization, CPU, memory, network
 
 
 
